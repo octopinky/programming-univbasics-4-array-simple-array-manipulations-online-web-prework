@@ -38,11 +38,11 @@ def using_flatten(arr)
   arr.flatten
 end
 
-def using_uniq(arr)
-  arr.uniq
+def using_delete_at(arr,int)
+  arr.delete(int,str)
 end
 
-def using_uniq(arr)
-  arr.uniq
+def using_delete(arr,str)
+  arr.delete str
 end
 
