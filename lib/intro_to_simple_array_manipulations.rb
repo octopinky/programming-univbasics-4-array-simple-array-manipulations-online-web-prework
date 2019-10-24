@@ -12,5 +12,5 @@ end
 
 def pop_with_args(arr)
   
-  puts arr.pop(2)
+  puts arr.pop[2]
 end
